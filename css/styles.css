@@ -1,0 +1,328 @@
+/* ================================= 
+  General
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+    height: 100%;
+    
+    
+}
+
+    .wrap {
+       width: 100%;
+       margin: 0 auto; 
+    
+}
+
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+       background: #fff;
+}
+    
+h1,
+h2,
+h3,
+h4 {
+	color: #000;
+}
+
+img {
+	max-width: 90%;
+}
+
+.img-header {
+    padding-left: 50px;
+    padding-top: 20px
+    
+}
+
+p {
+    text-align: center;
+    color: darkslategray;
+    
+}
+
+
+    
+/* ================================= 
+  Heading
+==================================== */
+
+.main-header {
+    background: #F8F8FF;
+}
+
+.name {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+.main-nav {
+    padding-right: 30px;
+    margin: 0;
+    padding: 0 15px;
+
+}
+
+
+  
+.main-nav li {
+    background: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+
+
+    
+}
+
+.main-nav a {
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    
+}
+
+.main-nav a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: darkgrey;
+}
+
+.intro {
+    color: darkslategray;
+    padding-bottom: 25px;
+        
+}
+
+/* ---- Layout ---- */
+
+
+
+.gallery {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+  
+.gallery li a {
+        text-decoration: none;
+    }   
+
+
+
+#portfolio {
+    text-align: center;
+}
+
+.contact-header {
+    padding-top: 50px;
+}
+
+#contact {
+    text-align: center;
+    display: block;
+    background: #f8f8ff;
+    margin-bottom: 0;
+
+}
+    
+.email {
+    padding-bottom: 0px;
+    padding-bottom: 50px
+}
+
+
+
+
+/* ================================= 
+  Footer
+==================================== */
+
+
+
+footer {
+    background: #F8F8FF;
+    height: 100%;
+    border-top: 2px solid #A9A9A9;
+    margin-top: -20px;
+
+}
+
+
+
+.footer-nav li {
+    display: inline-block;
+    
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+
+}
+
+.footer-home,
+.footer-port,
+.footer-contact {
+    visibility: hidden
+}
+
+
+/**************************
+MEDIA QUERIES
+**************************/
+
+@media screen and (min-width: 768px) {
+    
+    .main-nav {
+        text-align: center;
+    }
+ 
+    .main-nav li {
+        display: inline-block;
+        margin-left: 25px;
+        background: #F8F8FF;
+    }
+    
+    .img-header {
+        display: block;
+        float: right;
+        max-width: 300px;
+        padding-right: 25px
+    }
+    
+    .intro {
+        padding-left: 25px
+    }
+    
+    .main-header {
+        padding-bottom: 90px
+    }
+    .gallery {
+    
+    } 
+    
+    .gallery li {
+        float: left;
+        width: 45%;
+        margin: 2.5%;
+        
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+
+ .footer-back {
+        visibility: hidden;
+    }
+    
+    .footer-nav {
+        text-align: center
+    }
+    
+.footer-home,
+.footer-port,
+.footer-contact {
+        visibility: visible;
+        padding: 0;
+        
+ } 
+    
+    .footer-name {
+        padding-left: 50px;
+        padding-right: 39px;
+    }
+    
+    #contact p {
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 10px
+    }
+    
+    
+    .email {
+        margin-bottom: 
+    }
+    
+    
+}
+
+@media screen and (min-width: 1024px) {
+  
+    .main-nav h1 {
+        display: inline-block;
+        float: left;
+        padding-left: 50px;
+        padding-top: 25px;  
+    }
+    
+    
+    .main-nav li {
+        padding-top: 25px;
+    }
+    
+    .name {
+        padding-right: 70px
+    }
+    
+    .header-intro {
+        clear: both;
+        padding-top: 25px
+    }
+    
+    .img-header {
+        max-width: 440px;
+        padding-right: 80px;
+        
+    }
+    
+    .intro {
+        padding-left: 60px;
+        max-width: 65%
+        
+    }
+     
+    .main-header {
+        padding-bottom: 150px
+    }
+    
+    
+    
+    .gallery li {
+        float: left;
+        max-width: 28%;
+        
+    }
+    
+    .footer-home,
+    .footer-port,
+    .footer-contact {
+        visibility: visible;
+        padding: 0;
+        
+ } 
+    
+    .footer-name {
+        padding-right: 50px;
+    }
+    
+    

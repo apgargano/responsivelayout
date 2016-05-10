@@ -1,35 +1,91 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-    
-    
-    
+      <title>Responsive Layout</title>
+      <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>    
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/styles.css"> 
     </head>
- <body>
-    <header>
-     
-     
-     </header>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <footer>
-        
-        
-    </footer>
- </body>
-
-
-
-
-
-
+  <body>
+      <div class="wrap">
+       <header class="main-header"> 
+          <nav class="container clearfix">  
+           <ul class="main-nav">
+            <h1 class="name">Andrew Gargano</h1>   
+             <li><a href="#">Home</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+            </ul> 
+           </nav>
+        <div class="header-intro">
+           <img src="img/profile.jpg" alt="profile picture" class="img-header">  
+           <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        </div>   
+        </header>    
+        <div class="wrapper">
+            <h2 id=portfolio>Portfolio</h2>
+           <ul class="gallery">
+               <li>
+                 <a href="img/portfolio-1.png">
+                  <img src="img/portfolio-1.png" alt="Marketing Page">
+                     <p>Marketing Page</p>
+                      <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                   </a>
+               </li>
+               <li>
+                 <a href="img/portfolio-2.png">
+                  <img src="img/portfolio-2.png" alt="Search Page">
+                     <p>Search Page</p>
+                      <p>This project searches through a specific database to find information that the that the user is trying to look up.</p>
+                   </a>
+               </li>
+                <li>
+                 <a href="img/portfolio-3.png">
+                  <img src="img/portfolio-3.png" alt="Travel App">
+                     <p>Travel App</p>
+                      <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+                   </a>
+               </li>
+                <li>
+                 <a href="img/portfolio-6.png">
+                  <img src="img/portfolio-6.png" alt="Map of Favorite Sports">
+                     <p>Map of Favorite Sports</p>
+                      <p>This project uses mapping apis to plot points for my favorite sports in the city for a do-it-yourself walking tour.</p>
+                   </a>
+               </li>
+               <li>
+                 <a href="img/portfolio-5.png">
+                  <img src="img/portfolio-5.png" alt="Photo Gallery">
+                     <p>Photo Gallery</p>
+                      <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through the photos.</p>
+                   </a>
+               </li>
+               <li>
+                 <a href="img/portfolio-4.png">
+                  <img src="img/portfolio-4.png" alt="Calculater">
+                     <p>Calculater</p>
+                      <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+                   </a>
+               </li>  
+            </ul> 
+        </div> 
+      <div class="clear">
+    <div id="contact">
+       <h3 class="contact-header">CONTACT</h3>
+        <p>If you're interested in chating or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone +1 (111)555-1234</p>
+        <p class="email">Email email@yoursite.com</p>
+    </div>
+      <footer> 
+           <ul class="footer-nav">
+             <li class="footer-name">Andrew Gargano</li>  
+             <li class="footer-back"><a href="#">BACK TO TOP</a></li>
+             <li class="footer-home"><a href="#">Home</a></li>
+             <li class="footer-port"><a href="#portfolio">Portfolio</a></li>
+             <li class="footer-contact"><a href="#contact">Contact</a></li>
+            </ul>
+     </footer>
+      </div> 
+    </div>
+  </body>
 </html>
