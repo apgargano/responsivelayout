@@ -38,7 +38,7 @@ img {
 
 .img-header {
     padding-left: 50px;
-    padding-top: 20px
+    padding-top: 20px;
     
 }
 
@@ -181,7 +181,7 @@ footer {
 .footer-home,
 .footer-port,
 .footer-contact {
-    visibility: hidden
+    visibility: hidden;
 }
 
 
@@ -205,19 +205,19 @@ MEDIA QUERIES
         display: block;
         float: right;
         max-width: 300px;
-        padding-right: 25px
+        padding-right: 25px;
     }
     
     .intro {
-        padding-left: 25px
+        padding-left: 25px;
+        text-align: left;
     }
     
     .main-header {
-        padding-bottom: 90px
+        padding-bottom: 90px;
     }
-    .gallery {
     
-    } 
+     
     
     .gallery li {
         float: left;
@@ -236,7 +236,7 @@ MEDIA QUERIES
     }
     
     .footer-nav {
-        text-align: center
+        text-align: center;
     }
     
 .footer-home,
@@ -259,35 +259,43 @@ MEDIA QUERIES
     }
     
     
-    .email {
-        margin-bottom: 
-    }
-    
+        
     
 }
 
 @media screen and (min-width: 1024px) {
   
-    .main-nav h1 {
+    .main-header h1 {
         display: inline-block;
         float: left;
-        padding-left: 50px;
+        padding-left: 60px;
         padding-top: 25px;  
     }
     
     
+    .main-nav {
+        float: right;
+        padding-right: 40px
+    }
+    
     .main-nav li {
+        float: left;
         padding-top: 25px;
+        padding-right: 30px
     }
     
     .name {
-        padding-right: 70px
+        padding-right: 80px;
+        
     }
     
+        
     .header-intro {
         clear: both;
-        padding-top: 25px
+        padding-top: 25px;
     }
+    
+    
     
     .img-header {
         max-width: 440px;
@@ -297,12 +305,12 @@ MEDIA QUERIES
     
     .intro {
         padding-left: 60px;
-        max-width: 65%
+        max-width: 65%;
         
     }
      
     .main-header {
-        padding-bottom: 150px
+        padding-bottom: 150px;
     }
     
     
@@ -325,4 +333,4 @@ MEDIA QUERIES
         padding-right: 50px;
     }
     
-    
+}
